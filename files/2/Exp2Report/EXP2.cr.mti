@@ -1,0 +1,71 @@
+{C:/Users/DLD lab 3/Desktop/EXP2TB.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/EXP2TB.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module EXPTB
+
+Top level modules:
+	EXPTB
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/PB.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/PB.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module OnePulser
+
+Top level modules:
+	OnePulser
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/SSD.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/SSD.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module SSD
+
+Top level modules:
+	SSD
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/transTB.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/transTB.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module transTB
+
+Top level modules:
+	transTB
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/SequenceDetector.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/SequenceDetector.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module SequenceDetector
+
+Top level modules:
+	SequenceDetector
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/Exp2.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/Exp2.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Exp2
+
+Top level modules:
+	Exp2
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/TBOnePulser.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/TBOnePulser.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module TBOnePulser
+
+Top level modules:
+	TBOnePulser
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/SerTransmitter.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/SerTransmitter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module SerTransmitter
+
+Top level modules:
+	SerTransmitter
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/SSDTB.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/SSDTB.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module SSDTB
+
+Top level modules:
+	SSDTB
+
+} {} {}} {C:/Users/DLD lab 3/Desktop/Counter.v} {1 {vlog -work work {C:/Users/DLD lab 3/Desktop/Counter.v}
+Model Technology ModelSim ALTERA vlog 10.1b Compiler 2012.04 Apr 27 2012
+-- Compiling module Counter
+
+Top level modules:
+	Counter
+
+} {} {}}

@@ -1,0 +1,540 @@
+TimeQuest Timing Analyzer report for FG
+Fri Dec 02 21:53:26 2022
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Slow Model Fmax Summary
+  6. Slow Model Setup Summary
+  7. Slow Model Hold Summary
+  8. Slow Model Recovery Summary
+  9. Slow Model Removal Summary
+ 10. Slow Model Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Fast Model Setup Summary
+ 14. Fast Model Hold Summary
+ 15. Fast Model Recovery Summary
+ 16. Fast Model Removal Summary
+ 17. Fast Model Minimum Pulse Width Summary
+ 18. Propagation Delay
+ 19. Minimum Propagation Delay
+ 20. Multicorner Timing Analysis Summary
+ 21. Progagation Delay
+ 22. Minimum Progagation Delay
+ 23. Clock Transfers
+ 24. Report TCCS
+ 25. Report RSKM
+ 26. Unconstrained Paths
+ 27. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                     ;
++--------------------+--------------------------------------------------+
+; Quartus II Version ; Version 12.1 Build 177 11/07/2012 SJ Web Edition ;
+; Revision Name      ; FG                                               ;
+; Device Family      ; Cyclone II                                       ;
+; Device Name        ; EP2C20F484C7                                     ;
+; Timing Models      ; Final                                            ;
+; Delay Model        ; Combined                                         ;
+; Rise/Fall Delays   ; Unavailable                                      ;
++--------------------+--------------------------------------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 2      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+---------------------------
+; Slow Model Fmax Summary ;
+---------------------------
+No paths to report.
+
+
+----------------------------
+; Slow Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Slow Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Slow Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Slow Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Slow Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++--------------------------------------------------------------+
+; Propagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; sw[0]      ; out_wave[0] ; 10.746 ; 10.925 ; 10.925 ; 10.746 ;
+; sw[0]      ; out_wave[1] ; 12.124 ; 12.124 ; 12.124 ; 12.124 ;
+; sw[0]      ; out_wave[2] ; 10.780 ; 10.780 ; 10.780 ; 10.780 ;
+; sw[0]      ; out_wave[3] ; 11.427 ; 11.427 ; 11.427 ; 11.427 ;
+; sw[0]      ; out_wave[4] ; 11.507 ; 11.073 ; 11.073 ; 11.507 ;
+; sw[0]      ; out_wave[5] ; 11.607 ; 11.607 ; 11.607 ; 11.607 ;
+; sw[0]      ; out_wave[6] ; 10.689 ; 10.689 ; 10.689 ; 10.689 ;
+; sw[0]      ; out_wave[7] ;        ; 10.396 ; 10.396 ;        ;
+; sw[1]      ; out_wave[0] ; 10.870 ; 10.870 ; 10.870 ; 10.870 ;
+; sw[1]      ; out_wave[1] ; 12.499 ; 12.499 ; 12.499 ; 12.499 ;
+; sw[1]      ; out_wave[2] ; 10.924 ; 10.924 ; 10.924 ; 10.924 ;
+; sw[1]      ; out_wave[3] ; 11.822 ; 11.822 ; 11.822 ; 11.822 ;
+; sw[1]      ; out_wave[4] ; 11.439 ; 11.439 ; 11.439 ; 11.439 ;
+; sw[1]      ; out_wave[5] ; 10.366 ; 10.938 ; 10.938 ; 10.366 ;
+; sw[1]      ; out_wave[6] ;        ; 10.547 ; 10.547 ;        ;
+; sw[1]      ; out_wave[7] ;        ; 10.272 ; 10.272 ;        ;
+; wave[0]    ; out_wave[0] ; 10.774 ;        ;        ; 10.774 ;
+; wave[1]    ; out_wave[0] ; 10.641 ;        ;        ; 10.641 ;
+; wave[1]    ; out_wave[1] ; 12.019 ;        ;        ; 12.019 ;
+; wave[2]    ; out_wave[0] ; 10.889 ;        ;        ; 10.889 ;
+; wave[2]    ; out_wave[1] ; 12.517 ;        ;        ; 12.517 ;
+; wave[2]    ; out_wave[2] ; 10.827 ;        ;        ; 10.827 ;
+; wave[3]    ; out_wave[0] ; 11.061 ;        ;        ; 11.061 ;
+; wave[3]    ; out_wave[1] ; 12.439 ;        ;        ; 12.439 ;
+; wave[3]    ; out_wave[2] ; 11.072 ;        ;        ; 11.072 ;
+; wave[3]    ; out_wave[3] ; 11.384 ;        ;        ; 11.384 ;
+; wave[4]    ; out_wave[1] ; 12.451 ;        ;        ; 12.451 ;
+; wave[4]    ; out_wave[2] ; 10.761 ;        ;        ; 10.761 ;
+; wave[4]    ; out_wave[3] ; 11.586 ;        ;        ; 11.586 ;
+; wave[4]    ; out_wave[4] ; 10.878 ;        ;        ; 10.878 ;
+; wave[5]    ; out_wave[2] ; 11.090 ;        ;        ; 11.090 ;
+; wave[5]    ; out_wave[3] ; 11.402 ;        ;        ; 11.402 ;
+; wave[5]    ; out_wave[4] ; 11.357 ;        ;        ; 11.357 ;
+; wave[5]    ; out_wave[5] ; 10.750 ;        ;        ; 10.750 ;
+; wave[6]    ; out_wave[3] ; 11.974 ;        ;        ; 11.974 ;
+; wave[6]    ; out_wave[4] ; 11.266 ;        ;        ; 11.266 ;
+; wave[6]    ; out_wave[5] ; 11.316 ;        ;        ; 11.316 ;
+; wave[6]    ; out_wave[6] ; 10.777 ;        ;        ; 10.777 ;
+; wave[7]    ; out_wave[4] ; 11.460 ;        ;        ; 11.460 ;
+; wave[7]    ; out_wave[5] ; 10.355 ;        ;        ; 10.355 ;
+; wave[7]    ; out_wave[6] ; 10.629 ;        ;        ; 10.629 ;
+; wave[7]    ; out_wave[7] ; 10.349 ;        ;        ; 10.349 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++--------------------------------------------------------------+
+; Minimum Propagation Delay                                    ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; sw[0]      ; out_wave[0] ; 10.746 ; 10.925 ; 10.925 ; 10.746 ;
+; sw[0]      ; out_wave[1] ; 12.124 ; 12.124 ; 12.124 ; 12.124 ;
+; sw[0]      ; out_wave[2] ; 10.780 ; 10.780 ; 10.780 ; 10.780 ;
+; sw[0]      ; out_wave[3] ; 11.427 ; 11.427 ; 11.427 ; 11.427 ;
+; sw[0]      ; out_wave[4] ; 11.507 ; 11.073 ; 11.073 ; 11.507 ;
+; sw[0]      ; out_wave[5] ; 11.607 ; 10.407 ; 10.407 ; 11.607 ;
+; sw[0]      ; out_wave[6] ; 10.689 ; 10.689 ; 10.689 ; 10.689 ;
+; sw[0]      ; out_wave[7] ;        ; 10.396 ; 10.396 ;        ;
+; sw[1]      ; out_wave[0] ; 10.544 ; 10.544 ; 10.544 ; 10.544 ;
+; sw[1]      ; out_wave[1] ; 11.922 ; 11.922 ; 11.922 ; 11.922 ;
+; sw[1]      ; out_wave[2] ; 10.809 ; 10.809 ; 10.809 ; 10.809 ;
+; sw[1]      ; out_wave[3] ; 11.236 ; 11.236 ; 11.236 ; 11.236 ;
+; sw[1]      ; out_wave[4] ; 11.114 ; 11.114 ; 11.114 ; 11.114 ;
+; sw[1]      ; out_wave[5] ; 10.366 ; 10.938 ; 10.938 ; 10.366 ;
+; sw[1]      ; out_wave[6] ;        ; 10.547 ; 10.547 ;        ;
+; sw[1]      ; out_wave[7] ;        ; 10.272 ; 10.272 ;        ;
+; wave[0]    ; out_wave[0] ; 10.774 ;        ;        ; 10.774 ;
+; wave[1]    ; out_wave[0] ; 10.641 ;        ;        ; 10.641 ;
+; wave[1]    ; out_wave[1] ; 12.019 ;        ;        ; 12.019 ;
+; wave[2]    ; out_wave[0] ; 10.889 ;        ;        ; 10.889 ;
+; wave[2]    ; out_wave[1] ; 12.517 ;        ;        ; 12.517 ;
+; wave[2]    ; out_wave[2] ; 10.827 ;        ;        ; 10.827 ;
+; wave[3]    ; out_wave[0] ; 11.061 ;        ;        ; 11.061 ;
+; wave[3]    ; out_wave[1] ; 12.439 ;        ;        ; 12.439 ;
+; wave[3]    ; out_wave[2] ; 11.072 ;        ;        ; 11.072 ;
+; wave[3]    ; out_wave[3] ; 11.384 ;        ;        ; 11.384 ;
+; wave[4]    ; out_wave[1] ; 12.451 ;        ;        ; 12.451 ;
+; wave[4]    ; out_wave[2] ; 10.761 ;        ;        ; 10.761 ;
+; wave[4]    ; out_wave[3] ; 11.586 ;        ;        ; 11.586 ;
+; wave[4]    ; out_wave[4] ; 10.878 ;        ;        ; 10.878 ;
+; wave[5]    ; out_wave[2] ; 11.090 ;        ;        ; 11.090 ;
+; wave[5]    ; out_wave[3] ; 11.402 ;        ;        ; 11.402 ;
+; wave[5]    ; out_wave[4] ; 11.357 ;        ;        ; 11.357 ;
+; wave[5]    ; out_wave[5] ; 10.750 ;        ;        ; 10.750 ;
+; wave[6]    ; out_wave[3] ; 11.974 ;        ;        ; 11.974 ;
+; wave[6]    ; out_wave[4] ; 11.266 ;        ;        ; 11.266 ;
+; wave[6]    ; out_wave[5] ; 11.316 ;        ;        ; 11.316 ;
+; wave[6]    ; out_wave[6] ; 10.777 ;        ;        ; 10.777 ;
+; wave[7]    ; out_wave[4] ; 11.460 ;        ;        ; 11.460 ;
+; wave[7]    ; out_wave[5] ; 10.355 ;        ;        ; 10.355 ;
+; wave[7]    ; out_wave[6] ; 10.629 ;        ;        ; 10.629 ;
+; wave[7]    ; out_wave[7] ; 10.349 ;        ;        ; 10.349 ;
++------------+-------------+--------+--------+--------+--------+
+
+
+----------------------------
+; Fast Model Setup Summary ;
+----------------------------
+No paths to report.
+
+
+---------------------------
+; Fast Model Hold Summary ;
+---------------------------
+No paths to report.
+
+
+-------------------------------
+; Fast Model Recovery Summary ;
+-------------------------------
+No paths to report.
+
+
+------------------------------
+; Fast Model Removal Summary ;
+------------------------------
+No paths to report.
+
+
+------------------------------------------
+; Fast Model Minimum Pulse Width Summary ;
+------------------------------------------
+No paths to report.
+
+
++----------------------------------------------------------+
+; Propagation Delay                                        ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; sw[0]      ; out_wave[0] ; 5.420 ; 5.503 ; 5.503 ; 5.420 ;
+; sw[0]      ; out_wave[1] ; 6.056 ; 6.056 ; 6.056 ; 6.056 ;
+; sw[0]      ; out_wave[2] ; 5.453 ; 5.453 ; 5.453 ; 5.453 ;
+; sw[0]      ; out_wave[3] ; 5.773 ; 5.773 ; 5.773 ; 5.773 ;
+; sw[0]      ; out_wave[4] ; 5.780 ; 5.624 ; 5.624 ; 5.780 ;
+; sw[0]      ; out_wave[5] ; 5.755 ; 5.755 ; 5.755 ; 5.755 ;
+; sw[0]      ; out_wave[6] ; 5.500 ; 5.500 ; 5.500 ; 5.500 ;
+; sw[0]      ; out_wave[7] ;       ; 5.332 ; 5.332 ;       ;
+; sw[1]      ; out_wave[0] ; 5.448 ; 5.448 ; 5.448 ; 5.448 ;
+; sw[1]      ; out_wave[1] ; 6.152 ; 6.152 ; 6.152 ; 6.152 ;
+; sw[1]      ; out_wave[2] ; 5.470 ; 5.470 ; 5.470 ; 5.470 ;
+; sw[1]      ; out_wave[3] ; 5.881 ; 5.881 ; 5.881 ; 5.881 ;
+; sw[1]      ; out_wave[4] ; 5.733 ; 5.733 ; 5.733 ; 5.733 ;
+; sw[1]      ; out_wave[5] ; 5.292 ; 5.493 ; 5.493 ; 5.292 ;
+; sw[1]      ; out_wave[6] ;       ; 5.439 ; 5.439 ;       ;
+; sw[1]      ; out_wave[7] ;       ; 5.292 ; 5.292 ;       ;
+; wave[0]    ; out_wave[0] ; 5.387 ;       ;       ; 5.387 ;
+; wave[1]    ; out_wave[0] ; 5.415 ;       ;       ; 5.415 ;
+; wave[1]    ; out_wave[1] ; 6.051 ;       ;       ; 6.051 ;
+; wave[2]    ; out_wave[0] ; 5.511 ;       ;       ; 5.511 ;
+; wave[2]    ; out_wave[1] ; 6.217 ;       ;       ; 6.217 ;
+; wave[2]    ; out_wave[2] ; 5.497 ;       ;       ; 5.497 ;
+; wave[3]    ; out_wave[0] ; 5.544 ;       ;       ; 5.544 ;
+; wave[3]    ; out_wave[1] ; 6.180 ;       ;       ; 6.180 ;
+; wave[3]    ; out_wave[2] ; 5.579 ;       ;       ; 5.579 ;
+; wave[3]    ; out_wave[3] ; 5.791 ;       ;       ; 5.791 ;
+; wave[4]    ; out_wave[1] ; 6.130 ;       ;       ; 6.130 ;
+; wave[4]    ; out_wave[2] ; 5.410 ;       ;       ; 5.410 ;
+; wave[4]    ; out_wave[3] ; 5.796 ;       ;       ; 5.796 ;
+; wave[4]    ; out_wave[4] ; 5.523 ;       ;       ; 5.523 ;
+; wave[5]    ; out_wave[2] ; 5.514 ;       ;       ; 5.514 ;
+; wave[5]    ; out_wave[3] ; 5.726 ;       ;       ; 5.726 ;
+; wave[5]    ; out_wave[4] ; 5.691 ;       ;       ; 5.691 ;
+; wave[5]    ; out_wave[5] ; 5.411 ;       ;       ; 5.411 ;
+; wave[6]    ; out_wave[3] ; 5.902 ;       ;       ; 5.902 ;
+; wave[6]    ; out_wave[4] ; 5.629 ;       ;       ; 5.629 ;
+; wave[6]    ; out_wave[5] ; 5.586 ;       ;       ; 5.586 ;
+; wave[6]    ; out_wave[6] ; 5.457 ;       ;       ; 5.457 ;
+; wave[7]    ; out_wave[4] ; 5.807 ;       ;       ; 5.807 ;
+; wave[7]    ; out_wave[5] ; 5.365 ;       ;       ; 5.365 ;
+; wave[7]    ; out_wave[6] ; 5.519 ;       ;       ; 5.519 ;
+; wave[7]    ; out_wave[7] ; 5.386 ;       ;       ; 5.386 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------+
+; Minimum Propagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; sw[0]      ; out_wave[0] ; 5.420 ; 5.503 ; 5.503 ; 5.420 ;
+; sw[0]      ; out_wave[1] ; 6.056 ; 6.056 ; 6.056 ; 6.056 ;
+; sw[0]      ; out_wave[2] ; 5.453 ; 5.453 ; 5.453 ; 5.453 ;
+; sw[0]      ; out_wave[3] ; 5.773 ; 5.773 ; 5.773 ; 5.773 ;
+; sw[0]      ; out_wave[4] ; 5.780 ; 5.624 ; 5.624 ; 5.780 ;
+; sw[0]      ; out_wave[5] ; 5.755 ; 5.341 ; 5.341 ; 5.755 ;
+; sw[0]      ; out_wave[6] ; 5.500 ; 5.500 ; 5.500 ; 5.500 ;
+; sw[0]      ; out_wave[7] ;       ; 5.332 ; 5.332 ;       ;
+; sw[1]      ; out_wave[0] ; 5.323 ; 5.323 ; 5.323 ; 5.323 ;
+; sw[1]      ; out_wave[1] ; 5.959 ; 5.959 ; 5.959 ; 5.959 ;
+; sw[1]      ; out_wave[2] ; 5.432 ; 5.432 ; 5.432 ; 5.432 ;
+; sw[1]      ; out_wave[3] ; 5.682 ; 5.682 ; 5.682 ; 5.682 ;
+; sw[1]      ; out_wave[4] ; 5.608 ; 5.608 ; 5.608 ; 5.608 ;
+; sw[1]      ; out_wave[5] ; 5.292 ; 5.493 ; 5.493 ; 5.292 ;
+; sw[1]      ; out_wave[6] ;       ; 5.439 ; 5.439 ;       ;
+; sw[1]      ; out_wave[7] ;       ; 5.292 ; 5.292 ;       ;
+; wave[0]    ; out_wave[0] ; 5.387 ;       ;       ; 5.387 ;
+; wave[1]    ; out_wave[0] ; 5.415 ;       ;       ; 5.415 ;
+; wave[1]    ; out_wave[1] ; 6.051 ;       ;       ; 6.051 ;
+; wave[2]    ; out_wave[0] ; 5.511 ;       ;       ; 5.511 ;
+; wave[2]    ; out_wave[1] ; 6.217 ;       ;       ; 6.217 ;
+; wave[2]    ; out_wave[2] ; 5.497 ;       ;       ; 5.497 ;
+; wave[3]    ; out_wave[0] ; 5.544 ;       ;       ; 5.544 ;
+; wave[3]    ; out_wave[1] ; 6.180 ;       ;       ; 6.180 ;
+; wave[3]    ; out_wave[2] ; 5.579 ;       ;       ; 5.579 ;
+; wave[3]    ; out_wave[3] ; 5.791 ;       ;       ; 5.791 ;
+; wave[4]    ; out_wave[1] ; 6.130 ;       ;       ; 6.130 ;
+; wave[4]    ; out_wave[2] ; 5.410 ;       ;       ; 5.410 ;
+; wave[4]    ; out_wave[3] ; 5.796 ;       ;       ; 5.796 ;
+; wave[4]    ; out_wave[4] ; 5.523 ;       ;       ; 5.523 ;
+; wave[5]    ; out_wave[2] ; 5.514 ;       ;       ; 5.514 ;
+; wave[5]    ; out_wave[3] ; 5.726 ;       ;       ; 5.726 ;
+; wave[5]    ; out_wave[4] ; 5.691 ;       ;       ; 5.691 ;
+; wave[5]    ; out_wave[5] ; 5.411 ;       ;       ; 5.411 ;
+; wave[6]    ; out_wave[3] ; 5.902 ;       ;       ; 5.902 ;
+; wave[6]    ; out_wave[4] ; 5.629 ;       ;       ; 5.629 ;
+; wave[6]    ; out_wave[5] ; 5.586 ;       ;       ; 5.586 ;
+; wave[6]    ; out_wave[6] ; 5.457 ;       ;       ; 5.457 ;
+; wave[7]    ; out_wave[4] ; 5.807 ;       ;       ; 5.807 ;
+; wave[7]    ; out_wave[5] ; 5.365 ;       ;       ; 5.365 ;
+; wave[7]    ; out_wave[6] ; 5.519 ;       ;       ; 5.519 ;
+; wave[7]    ; out_wave[7] ; 5.386 ;       ;       ; 5.386 ;
++------------+-------------+-------+-------+-------+-------+
+
+
++----------------------------------------------------------------------------+
+; Multicorner Timing Analysis Summary                                        ;
++------------------+-------+------+----------+---------+---------------------+
+; Clock            ; Setup ; Hold ; Recovery ; Removal ; Minimum Pulse Width ;
++------------------+-------+------+----------+---------+---------------------+
+; Worst-case Slack ; N/A   ; N/A  ; N/A      ; N/A     ; N/A                 ;
+; Design-wide TNS  ; 0.0   ; 0.0  ; 0.0      ; 0.0     ; 0.0                 ;
++------------------+-------+------+----------+---------+---------------------+
+
+
++--------------------------------------------------------------+
+; Progagation Delay                                            ;
++------------+-------------+--------+--------+--------+--------+
+; Input Port ; Output Port ; RR     ; RF     ; FR     ; FF     ;
++------------+-------------+--------+--------+--------+--------+
+; sw[0]      ; out_wave[0] ; 10.746 ; 10.925 ; 10.925 ; 10.746 ;
+; sw[0]      ; out_wave[1] ; 12.124 ; 12.124 ; 12.124 ; 12.124 ;
+; sw[0]      ; out_wave[2] ; 10.780 ; 10.780 ; 10.780 ; 10.780 ;
+; sw[0]      ; out_wave[3] ; 11.427 ; 11.427 ; 11.427 ; 11.427 ;
+; sw[0]      ; out_wave[4] ; 11.507 ; 11.073 ; 11.073 ; 11.507 ;
+; sw[0]      ; out_wave[5] ; 11.607 ; 11.607 ; 11.607 ; 11.607 ;
+; sw[0]      ; out_wave[6] ; 10.689 ; 10.689 ; 10.689 ; 10.689 ;
+; sw[0]      ; out_wave[7] ;        ; 10.396 ; 10.396 ;        ;
+; sw[1]      ; out_wave[0] ; 10.870 ; 10.870 ; 10.870 ; 10.870 ;
+; sw[1]      ; out_wave[1] ; 12.499 ; 12.499 ; 12.499 ; 12.499 ;
+; sw[1]      ; out_wave[2] ; 10.924 ; 10.924 ; 10.924 ; 10.924 ;
+; sw[1]      ; out_wave[3] ; 11.822 ; 11.822 ; 11.822 ; 11.822 ;
+; sw[1]      ; out_wave[4] ; 11.439 ; 11.439 ; 11.439 ; 11.439 ;
+; sw[1]      ; out_wave[5] ; 10.366 ; 10.938 ; 10.938 ; 10.366 ;
+; sw[1]      ; out_wave[6] ;        ; 10.547 ; 10.547 ;        ;
+; sw[1]      ; out_wave[7] ;        ; 10.272 ; 10.272 ;        ;
+; wave[0]    ; out_wave[0] ; 10.774 ;        ;        ; 10.774 ;
+; wave[1]    ; out_wave[0] ; 10.641 ;        ;        ; 10.641 ;
+; wave[1]    ; out_wave[1] ; 12.019 ;        ;        ; 12.019 ;
+; wave[2]    ; out_wave[0] ; 10.889 ;        ;        ; 10.889 ;
+; wave[2]    ; out_wave[1] ; 12.517 ;        ;        ; 12.517 ;
+; wave[2]    ; out_wave[2] ; 10.827 ;        ;        ; 10.827 ;
+; wave[3]    ; out_wave[0] ; 11.061 ;        ;        ; 11.061 ;
+; wave[3]    ; out_wave[1] ; 12.439 ;        ;        ; 12.439 ;
+; wave[3]    ; out_wave[2] ; 11.072 ;        ;        ; 11.072 ;
+; wave[3]    ; out_wave[3] ; 11.384 ;        ;        ; 11.384 ;
+; wave[4]    ; out_wave[1] ; 12.451 ;        ;        ; 12.451 ;
+; wave[4]    ; out_wave[2] ; 10.761 ;        ;        ; 10.761 ;
+; wave[4]    ; out_wave[3] ; 11.586 ;        ;        ; 11.586 ;
+; wave[4]    ; out_wave[4] ; 10.878 ;        ;        ; 10.878 ;
+; wave[5]    ; out_wave[2] ; 11.090 ;        ;        ; 11.090 ;
+; wave[5]    ; out_wave[3] ; 11.402 ;        ;        ; 11.402 ;
+; wave[5]    ; out_wave[4] ; 11.357 ;        ;        ; 11.357 ;
+; wave[5]    ; out_wave[5] ; 10.750 ;        ;        ; 10.750 ;
+; wave[6]    ; out_wave[3] ; 11.974 ;        ;        ; 11.974 ;
+; wave[6]    ; out_wave[4] ; 11.266 ;        ;        ; 11.266 ;
+; wave[6]    ; out_wave[5] ; 11.316 ;        ;        ; 11.316 ;
+; wave[6]    ; out_wave[6] ; 10.777 ;        ;        ; 10.777 ;
+; wave[7]    ; out_wave[4] ; 11.460 ;        ;        ; 11.460 ;
+; wave[7]    ; out_wave[5] ; 10.355 ;        ;        ; 10.355 ;
+; wave[7]    ; out_wave[6] ; 10.629 ;        ;        ; 10.629 ;
+; wave[7]    ; out_wave[7] ; 10.349 ;        ;        ; 10.349 ;
++------------+-------------+--------+--------+--------+--------+
+
+
++----------------------------------------------------------+
+; Minimum Progagation Delay                                ;
++------------+-------------+-------+-------+-------+-------+
+; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
++------------+-------------+-------+-------+-------+-------+
+; sw[0]      ; out_wave[0] ; 5.420 ; 5.503 ; 5.503 ; 5.420 ;
+; sw[0]      ; out_wave[1] ; 6.056 ; 6.056 ; 6.056 ; 6.056 ;
+; sw[0]      ; out_wave[2] ; 5.453 ; 5.453 ; 5.453 ; 5.453 ;
+; sw[0]      ; out_wave[3] ; 5.773 ; 5.773 ; 5.773 ; 5.773 ;
+; sw[0]      ; out_wave[4] ; 5.780 ; 5.624 ; 5.624 ; 5.780 ;
+; sw[0]      ; out_wave[5] ; 5.755 ; 5.341 ; 5.341 ; 5.755 ;
+; sw[0]      ; out_wave[6] ; 5.500 ; 5.500 ; 5.500 ; 5.500 ;
+; sw[0]      ; out_wave[7] ;       ; 5.332 ; 5.332 ;       ;
+; sw[1]      ; out_wave[0] ; 5.323 ; 5.323 ; 5.323 ; 5.323 ;
+; sw[1]      ; out_wave[1] ; 5.959 ; 5.959 ; 5.959 ; 5.959 ;
+; sw[1]      ; out_wave[2] ; 5.432 ; 5.432 ; 5.432 ; 5.432 ;
+; sw[1]      ; out_wave[3] ; 5.682 ; 5.682 ; 5.682 ; 5.682 ;
+; sw[1]      ; out_wave[4] ; 5.608 ; 5.608 ; 5.608 ; 5.608 ;
+; sw[1]      ; out_wave[5] ; 5.292 ; 5.493 ; 5.493 ; 5.292 ;
+; sw[1]      ; out_wave[6] ;       ; 5.439 ; 5.439 ;       ;
+; sw[1]      ; out_wave[7] ;       ; 5.292 ; 5.292 ;       ;
+; wave[0]    ; out_wave[0] ; 5.387 ;       ;       ; 5.387 ;
+; wave[1]    ; out_wave[0] ; 5.415 ;       ;       ; 5.415 ;
+; wave[1]    ; out_wave[1] ; 6.051 ;       ;       ; 6.051 ;
+; wave[2]    ; out_wave[0] ; 5.511 ;       ;       ; 5.511 ;
+; wave[2]    ; out_wave[1] ; 6.217 ;       ;       ; 6.217 ;
+; wave[2]    ; out_wave[2] ; 5.497 ;       ;       ; 5.497 ;
+; wave[3]    ; out_wave[0] ; 5.544 ;       ;       ; 5.544 ;
+; wave[3]    ; out_wave[1] ; 6.180 ;       ;       ; 6.180 ;
+; wave[3]    ; out_wave[2] ; 5.579 ;       ;       ; 5.579 ;
+; wave[3]    ; out_wave[3] ; 5.791 ;       ;       ; 5.791 ;
+; wave[4]    ; out_wave[1] ; 6.130 ;       ;       ; 6.130 ;
+; wave[4]    ; out_wave[2] ; 5.410 ;       ;       ; 5.410 ;
+; wave[4]    ; out_wave[3] ; 5.796 ;       ;       ; 5.796 ;
+; wave[4]    ; out_wave[4] ; 5.523 ;       ;       ; 5.523 ;
+; wave[5]    ; out_wave[2] ; 5.514 ;       ;       ; 5.514 ;
+; wave[5]    ; out_wave[3] ; 5.726 ;       ;       ; 5.726 ;
+; wave[5]    ; out_wave[4] ; 5.691 ;       ;       ; 5.691 ;
+; wave[5]    ; out_wave[5] ; 5.411 ;       ;       ; 5.411 ;
+; wave[6]    ; out_wave[3] ; 5.902 ;       ;       ; 5.902 ;
+; wave[6]    ; out_wave[4] ; 5.629 ;       ;       ; 5.629 ;
+; wave[6]    ; out_wave[5] ; 5.586 ;       ;       ; 5.586 ;
+; wave[6]    ; out_wave[6] ; 5.457 ;       ;       ; 5.457 ;
+; wave[7]    ; out_wave[4] ; 5.807 ;       ;       ; 5.807 ;
+; wave[7]    ; out_wave[5] ; 5.365 ;       ;       ; 5.365 ;
+; wave[7]    ; out_wave[6] ; 5.519 ;       ;       ; 5.519 ;
+; wave[7]    ; out_wave[7] ; 5.386 ;       ;       ; 5.386 ;
++------------+-------------+-------+-------+-------+-------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 10    ; 10   ;
+; Unconstrained Input Port Paths  ; 42    ; 42   ;
+; Unconstrained Output Ports      ; 8     ; 8    ;
+; Unconstrained Output Port Paths ; 42    ; 42   ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 12.1 Build 177 11/07/2012 SJ Web Edition
+    Info: Processing started: Fri Dec 02 21:53:21 2022
+Info: Command: quartus_sta FG -c FG
+Info: qsta_default_script.tcl version: #1
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Critical Warning (332012): Synopsys Design Constraints File file not found: 'FG.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info: Analyzing Slow Model
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info: Analyzing Fast Model
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 387 megabytes
+    Info: Processing ended: Fri Dec 02 21:53:25 2022
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+

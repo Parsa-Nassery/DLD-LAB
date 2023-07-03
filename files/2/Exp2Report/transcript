@@ -1,0 +1,735 @@
+# Reading C:/altera/12.1/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project EXP2
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v failed with 1 errors.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 1 failed with 1 error. 
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.SSDTB
+# vsim -gui work.SSDTB 
+# Loading work.SSDTB
+# Loading work.SSD
+add wave -position insertpoint sim:/SSDTB/*
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.SSDTB
+# vsim -gui work.SSDTB 
+# Loading work.SSDTB
+# Loading work.SSD
+add wave -position insertpoint sim:/SSDTB/*
+run
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v failed with 1 errors.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 1 failed with 1 error. 
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v failed with 1 errors.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 1 failed with 1 error. 
+quit -sim
+vsim -gui work.SSD
+# vsim -gui work.SSD 
+# Loading work.SSD
+add wave -position insertpoint  \
+sim:/SSD/count \
+sim:/SSD/seg_out
+force -freeze sim:/SSD/count 1011 0
+run
+run
+run
+run
+force -freeze sim:/SSD/count 1001 0
+run
+run
+# Load canceled
+# bad window path name ".dlg_sim_opts"
+# Load canceled
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.SSD
+# vsim -gui work.SSD 
+# Loading work.SSD
+add wave -position end  sim:/SSD/count
+add wave -position end  sim:/SSD/seg_out
+force -freeze sim:/SSD/count 0 0
+run
+run
+run
+run
+force -freeze sim:/SSD/count 1 0
+run
+run
+run
+run
+run
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.SSD
+# vsim -gui work.SSD 
+# Loading work.SSD
+add wave -position end  sim:/SSD/count
+add wave -position end  sim:/SSD/seg_out
+force -freeze sim:/SSD/count 0 0
+run
+run
+run
+# Compile of SSDTB.v was successful.
+# Compile of SSD.v was successful.
+restart
+# Loading work.SSD
+force -freeze sim:/SSD/count 1100 0
+run
+# Compile of SSD.v was successful.
+restart
+# Loading work.SSD
+force -freeze sim:/SSD/count 0001 0
+run
+run
+# Compile of SSD.v was successful.
+restart
+# Loading work.SSD
+force -freeze sim:/SSD/count 0 0
+run
+force -freeze sim:/SSD/count 3 0
+# Invalid binary digit: 3.
+# ** Error: (vsim-4011) Invalid force value: 3 0.
+# 
+run
+run
+force -freeze sim:/SSD/count 0011 0
+run
+# Compile of SSD.v was successful.
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# 8 compiles, 0 failed with no errors. 
+vsim -gui work.SSDTB
+# vsim -gui work.SSDTB 
+# Loading work.SSDTB
+# Loading work.SSD
+add wave -position end  sim:/SSDTB/seg_out
+add wave -position end  sim:/SSDTB/count_in
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# 9 compiles, 0 failed with no errors. 
+vsim -gui work.Exp2
+# vsim -gui work.Exp2 
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position insertpoint  \
+sim:/Exp2/push_button \
+sim:/Exp2/clk \
+sim:/Exp2/serIn \
+sim:/Exp2/rst \
+sim:/Exp2/serOut \
+sim:/Exp2/serOutValid \
+sim:/Exp2/seg_out
+force -freeze sim:/Exp2/rst 0 0
+force -freeze sim:/Exp2/clk 0 0, 1 {150 ns} -r 300
+force -freeze sim:/Exp2/serIn 0 0
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+force -freeze sim:/Exp2/serIn 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/serIn 0 0
+run
+run
+run
+run
+force -freeze sim:/Exp2/serIn 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/serIn 0 0
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/serIn 1 0
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/Exp2/clkEn
+add wave -position end  sim:/Exp2/count_out
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/serIn 0 0
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+force -freeze sim:/Exp2/serIn 1 0
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/Exp2/push_button 1 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/seg_out
+add wave -position end  sim:/EXPTB/serOut
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/seg_out
+add wave -position end  sim:/EXPTB/serOut
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_Out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/seg_out
+run -all
+# WARNING: No extended dataflow license exists
+# WARNING: No extended dataflow license exists
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_Out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/clkET
+add wave -position end  sim:/EXPTB/seg_out
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_Out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/seg_out
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v failed with 1 errors.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 1 failed with 1 error. 
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.TBOnePulser
+# vsim -gui work.TBOnePulser 
+# Loading work.TBOnePulser
+# Loading work.OnePulser
+add wave -position end  sim:/TBOnePulser/clk
+add wave -position end  sim:/TBOnePulser/PB
+add wave -position end  sim:/TBOnePulser/out
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.TBOnePulser
+# vsim -gui work.TBOnePulser 
+# Loading work.TBOnePulser
+# Loading work.OnePulser
+add wave -position end  sim:/TBOnePulser/clk
+add wave -position end  sim:/TBOnePulser/PB
+add wave -position end  sim:/TBOnePulser/out
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v failed with 1 errors.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 1 failed with 1 error. 
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 
+vsim -gui work.TBOnePulser
+# vsim -gui work.TBOnePulser 
+# Loading work.TBOnePulser
+# Loading work.OnePulser
+add wave -position end  sim:/TBOnePulser/clk
+add wave -position end  sim:/TBOnePulser/PB
+add wave -position end  sim:/TBOnePulser/out
+run -all
+vsim -gui work.EXPTB
+# vsim -gui work.EXPTB 
+# Loading work.EXPTB
+# Loading work.Exp2
+# Loading work.OnePulser
+# Loading work.SerTransmitter
+# Loading work.Counter
+# Loading work.SequenceDetector
+# Loading work.SSD
+add wave -position end  sim:/EXPTB/push_button
+add wave -position end  sim:/EXPTB/clk
+add wave -position end  sim:/EXPTB/serIn
+add wave -position end  sim:/EXPTB/rst
+add wave -position end  sim:/EXPTB/ser_Out
+add wave -position end  sim:/EXPTB/serOutValid
+add wave -position end  sim:/EXPTB/seg_out
+run -all
+# Compile of Counter.v was successful.
+# Compile of PB.v was successful.
+# Compile of SequenceDetector.v was successful.
+# Compile of SerTransmitter.v was successful.
+# Compile of SSD.v was successful.
+# Compile of SSDTB.v was successful.
+# Compile of TBOnePulser.v was successful.
+# Compile of transTB.v was successful.
+# Compile of Exp2.v was successful.
+# Compile of EXP2TB.v was successful.
+# 10 compiles, 0 failed with no errors. 

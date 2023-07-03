@@ -1,0 +1,7 @@
+`timescale 1ns / 1ns
+module SSDTB();
+	wire [6:0] seg_out;
+	reg [3:0] count_in;
+	SSD ssd(.count(count_in), .seg_out(seg_out));
+	initial repeat(10) #400 count_in = $random();
+endmodule

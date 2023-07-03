@@ -1,0 +1,205 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\DLD lab 3\Desktop
+vCounter
+Z1 !s100 P9:7=gkdoONT[zS<Ri8Xa3
+Z2 IXOYQiT77Bz?k9D=;[o`9_0
+Z3 V^3[V:i6PhNFnT11<j2o_]3
+Z4 dC:\Users\DLD lab 3\Desktop
+Z5 w1666103784
+Z6 8C:/Users/DLD lab 3/Desktop/Counter.v
+Z7 FC:/Users/DLD lab 3/Desktop/Counter.v
+L0 2
+Z8 OV;L;10.1b;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/Counter.v|
+Z10 o-work work -O0
+Z11 n@counter
+Z12 !s108 1667301830.699000
+Z13 !s107 C:/Users/DLD lab 3/Desktop/Counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vExp2
+Z14 !s100 nYZ]VmX?BjaV217>jMAKL3
+Z15 IicA_V[D_[KDTJN]DXXf5?0
+Z16 V@iOI6JlcnN9T0[VPRoiWz2
+R4
+Z17 w1667298383
+Z18 8C:/Users/DLD lab 3/Desktop/Exp2.v
+Z19 FC:/Users/DLD lab 3/Desktop/Exp2.v
+L0 2
+R8
+r1
+31
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/Exp2.v|
+R10
+Z21 n@exp2
+!i10b 1
+!s85 0
+Z22 !s108 1667301831.541000
+Z23 !s107 C:/Users/DLD lab 3/Desktop/Exp2.v|
+!s101 -O0
+vEXPTB
+!i10b 1
+Z24 !s100 91oOQ]nzHbJfNW[06lGhW0
+Z25 IOL=I^lhJm_4?oAXgg=3MJ0
+Z26 VI@03?i6zMc^i?3T]Me7VJ3
+R4
+Z27 w1667298374
+Z28 8C:/Users/DLD lab 3/Desktop/EXP2TB.v
+Z29 FC:/Users/DLD lab 3/Desktop/EXP2TB.v
+L0 2
+R8
+r1
+!s85 0
+31
+!s108 1667301831.791000
+!s107 C:/Users/DLD lab 3/Desktop/EXP2TB.v|
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/EXP2TB.v|
+!s101 -O0
+R10
+Z31 n@e@x@p@t@b
+vOnePulser
+Z32 !s100 2;:S9QBkX1bDCL0Ql:h2a3
+Z33 IUXZ0Kd<Bd>2244Y9A2hGg2
+Z34 VS>OLU]4h=VgdmMeZjHnBn2
+R4
+Z35 w1667299569
+Z36 8C:/Users/DLD lab 3/Desktop/PB.v
+Z37 FC:/Users/DLD lab 3/Desktop/PB.v
+L0 2
+R8
+r1
+31
+Z38 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/PB.v|
+R10
+Z39 n@one@pulser
+Z40 !s108 1667301830.792000
+Z41 !s107 C:/Users/DLD lab 3/Desktop/PB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSequenceDetector
+Z42 Ig9R_i^7oaADEb0HL`zd4V3
+Z43 VoEo40a`JR1514>>>SSADO1
+R4
+Z44 w1667301827
+Z45 8C:/Users/DLD lab 3/Desktop/SequenceDetector.v
+Z46 FC:/Users/DLD lab 3/Desktop/SequenceDetector.v
+L0 2
+R8
+r1
+31
+Z47 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/SequenceDetector.v|
+R10
+Z48 n@sequence@detector
+Z49 !s100 YLiKcGX[<miZB^M_f`6^I3
+Z50 !s108 1667301830.901000
+Z51 !s107 C:/Users/DLD lab 3/Desktop/SequenceDetector.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSerTransmitter
+Z52 !s100 KaGUUAe?G8WbNQVWK0[fa2
+Z53 I9[?CV[z_01bgeZTaV1I?11
+Z54 VC>_5EOhGi;a3KkJIj>FnP3
+R4
+Z55 w1666104434
+Z56 8C:/Users/DLD lab 3/Desktop/SerTransmitter.v
+Z57 FC:/Users/DLD lab 3/Desktop/SerTransmitter.v
+L0 2
+R8
+r1
+31
+Z58 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/SerTransmitter.v|
+R10
+Z59 n@ser@transmitter
+Z60 !s108 1667301831.011000
+Z61 !s107 C:/Users/DLD lab 3/Desktop/SerTransmitter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSSD
+Z62 !s100 hXZb78^kb]_5h:;`l8[CG1
+Z63 IV3amCclnAE3a8EX5jbh0W2
+Z64 VDV3S^mJ7VK0mQbz?A^Ube1
+R4
+Z65 w1667294848
+Z66 8C:/Users/DLD lab 3/Desktop/SSD.v
+Z67 FC:/Users/DLD lab 3/Desktop/SSD.v
+L0 2
+R8
+r1
+31
+Z68 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/SSD.v|
+R10
+Z69 n@s@s@d
+Z70 !s108 1667301831.104000
+Z71 !s107 C:/Users/DLD lab 3/Desktop/SSD.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSSDTB
+Z72 !s100 FzVEdJ]Xofz:N?4zZdjIZ1
+Z73 I2USZ6[Y`a?BVC2;DKFBZo2
+Z74 Vi^BNZ?`FhO[GN3;lP[fGk0
+R4
+Z75 w1667293439
+Z76 8C:/Users/DLD lab 3/Desktop/SSDTB.v
+Z77 FC:/Users/DLD lab 3/Desktop/SSDTB.v
+L0 2
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/SSDTB.v|
+R10
+Z79 n@s@s@d@t@b
+Z80 !s108 1667301831.198000
+Z81 !s107 C:/Users/DLD lab 3/Desktop/SSDTB.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTBOnePulser
+Z82 !s100 >=Qi2cmWQ;zZn_oBCXG6X0
+Z83 I5:ULAf5kDMg_G^2ljF4R:3
+Z84 V_32CD=jAjl^zkZkVXCnE32
+R4
+Z85 w1666099724
+Z86 8C:/Users/DLD lab 3/Desktop/TBOnePulser.v
+Z87 FC:/Users/DLD lab 3/Desktop/TBOnePulser.v
+L0 2
+R8
+r1
+31
+Z88 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/TBOnePulser.v|
+R10
+Z89 n@t@b@one@pulser
+Z90 !s108 1667301831.307000
+Z91 !s107 C:/Users/DLD lab 3/Desktop/TBOnePulser.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtransTB
+Z92 !s100 ^=fg7KGdGcUaEeDdXaGHP2
+Z93 IoY?;AQGm^R3_1NMGz12E32
+Z94 VQHMT03ijYDRGdZA2^3Ho_1
+R4
+Z95 w1666105810
+Z96 8C:/Users/DLD lab 3/Desktop/transTB.v
+Z97 FC:/Users/DLD lab 3/Desktop/transTB.v
+L0 2
+R8
+r1
+31
+Z98 !s90 -reportprogress|300|-work|work|C:/Users/DLD lab 3/Desktop/transTB.v|
+R10
+Z99 ntrans@t@b
+Z100 !s108 1667301831.416000
+Z101 !s107 C:/Users/DLD lab 3/Desktop/transTB.v|
+!i10b 1
+!s85 0
+!s101 -O0
